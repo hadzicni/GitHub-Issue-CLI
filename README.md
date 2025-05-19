@@ -3,18 +3,18 @@
 A minimal, token-authenticated command-line tool to **list GitHub issues** from any public or private repository. Built with Python and powered by the official [GitHub REST API v3](https://docs.github.com/en/rest).
 
 ![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-Apache--2.0-blue)
 ![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-lightgrey)
 
 ---
 
 ## ✨ Features
 
-- 📋 List open issues from any repository  
-- 🔐 Auth via Personal Access Token (PAT)  
-- 🛠️ Clean architecture and modular codebase  
-- 📦 Lightweight: `requests`, `dotenv`, `rich` (optional)  
-- ✅ Format validation for `owner/repo`  
+- 📋 List open issues from any repository
+- 🔐 Auth via Personal Access Token (PAT)
+- 🛠️ Clean architecture and modular codebase
+- 📦 Lightweight: `requests`, `dotenv`, `rich` (optional)
+- ✅ Format validation for `owner/repo`
 
 ---
 
@@ -61,18 +61,18 @@ python main.py list --repo=torvalds/linux
 ## ⚙️ Commands
 
 | Command | Description                 |
-|---------|-----------------------------|
+| ------- | --------------------------- |
 | `list`  | Lists open issues in a repo |
 
 ---
 
 ## 🧪 Planned Features
 
-- `create` — Create new issues from CLI  
-- `close` — Close an existing issue  
-- `comment` — Add a comment to an issue  
-- `label` — Filter by label/state  
-- `json`/`table` output formatting  
+- `create` — Create new issues from CLI
+- `close` — Close an existing issue
+- `comment` — Add a comment to an issue
+- `label` — Filter by label/state
+- `json`/`table` output formatting
 
 ---
 
@@ -85,4 +85,4 @@ GitHub: [@hadzicni](https://github.com/hadzicni)
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the [LICENSE](./LICENSE) file for details.
